@@ -7,9 +7,9 @@ import { FaStar } from 'react-icons/fa'
 const Demo = () => {
 
   return (
-    <div className='missionContainer'>
-      <div className='phoneContainer'>
-        <img src={`./phoneframe.png`} className='frame'></img>
+    <div className='demoContainer'>
+      <div className='phoneContainerDemo'>
+        <img src={`./phoneframe.png`} className='frameDemo'></img>
             <video
             playsInline
             autoPlay
@@ -18,7 +18,7 @@ const Demo = () => {
             src={
               './demo.mp4'
             }
-            className='phoneScreen'
+            className='phoneScreenDemo'
           ></video>
       </div>
     </div>

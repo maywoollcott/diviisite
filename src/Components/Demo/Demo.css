@@ -1,4 +1,4 @@
-.missionContainer {
+.demoContainer {
   background-color: var(--grayBlue);
   display: flex;
   flex-direction: row;
@@ -7,20 +7,13 @@
   height: 100vh;
 }
 
-.missionBodyContainer {
-  text-align: left;
-  color: var(--white);
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.frame {
+.frameDemo {
   position: relative;
   z-index: 1;
   width: 100%;
 }
 
-.phoneScreen {
+.phoneScreenDemo {
   width: 40%;
   position: absolute;
   left: 30%;
@@ -28,41 +21,38 @@
   z-index: 0;
 }
 
-.phoneContainer {
+.phoneContainerDemo {
   position: relative;
   width: 40%;
   margin-left: 5%;
 }
 
-.bulletContainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.bulletRow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.bullet {
-  color: var(--parchment);
-  margin-bottom: 5px;
-}
-
-.bulletText {
-  color: var(--parchment);
-  margin-left: 3%;
-  font-size: 16px;
-  font-weight: 500;
-  width: 60%;
-}
-
-.bulletText:hover {
-  cursor: pointer;
-  color: rgb(53, 69, 78);
-}
-
-.active {
-  color: rgb(53, 69, 78);
+@media (max-width: 500px) {
+  .demoContainer {
+    background-color: var(--grayBlue);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .frameDemo {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .phoneScreenDemo {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 6.5%;
+    z-index: 0;
+  }
+  
+  .phoneContainerDemo {
+    position: relative;
+    width: 100%;
+  }
 }
