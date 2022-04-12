@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Landing from './Components/Landing/Landing';
+import Features from './Components/Features/Features'
+import Demo from './Components/Demo/Demo'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Landing />}/>
+        <Route path='/features' element={<Features />}/>
+        <Route path='/demo' element={<Demo />}/>
+      </Routes>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

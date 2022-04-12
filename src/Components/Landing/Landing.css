@@ -1,0 +1,47 @@
+.landingContainer {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.logoImg {
+  width: 18%;
+  margin-bottom: 30px;
+}
+
+.cardPic {
+  height: 80%;
+  border-radius: 2%;
+}
+
+.header {
+  color: var(--parchment);
+  font-size: 80px;
+  font-family: 'made-dillan';
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.subHeader {
+  color: var(--parchment);
+  font-size: 24px;
+  font-family: 'made-dillan';
+  margin: 0;
+}
+
+.launch {
+  color: var(--parchment);
+  font-weight: 500;
+  margin-top: 20%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
