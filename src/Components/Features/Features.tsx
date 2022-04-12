@@ -30,14 +30,12 @@ const Features = () => {
       <div className='bulletContainer'>
         <div className='bulletRow'>
           <FaStar className={selectedFeature === 0 ? 'bullet active' : 'bullet'} size={28}/>
-          <div>
             <p 
               onClick={() => {
               setSelectedFeature(0);
               setGifAddress('./readinggif.gif')
               }} 
               className='bulletText'>Gain insight into your life by choosing from a variety of spreads</p>
-          </div>
         </div>
         <div className='bulletRow'>
           <FaStar className={selectedFeature === 1 ? 'bullet active' : 'bullet'} size={28}/>
