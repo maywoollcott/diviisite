@@ -72,7 +72,7 @@
     background-color: var(--grayBlue);
     display: flex;
     flex-direction: row;
-    margin-top: 30%;
+    margin-top: 20%;
   }
   
   .missionBodyContainer {
@@ -127,14 +127,14 @@
   .bulletText {
     color: var(--parchment);
     margin-left: 3%;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     width: 60%;
   }
   
   .bulletText:hover {
     cursor: pointer;
-    color: rgb(53, 69, 78);
+    color: var(--parchment);
   }
 
   .active {
