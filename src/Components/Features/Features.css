@@ -71,40 +71,37 @@
   .missionContainer {
     background-color: var(--grayBlue);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 20%;
   }
-  
+
   .missionBodyContainer {
     text-align: left;
     color: var(--white);
     font-size: 18px;
     font-weight: 500;
   }
-  
+
   .frame {
     position: relative;
     z-index: 1;
     width: 100%;
-    display: none;
   }
-  
+
   .phoneScreen {
     width: 40%;
     position: absolute;
     left: 30%;
     top: 6.5%;
     z-index: 0;
-    display: none;
   }
-  
+
   .phoneContainer {
     position: relative;
-    width: 40%;
+    width: 90%;
     margin-left: 5%;
-    display: none;
   }
-  
+
   .bulletContainer {
     display: flex;
     flex-direction: column;
@@ -112,19 +109,19 @@
     justify-content: center;
     margin-top: 40px;
   }
-  
+
   .bulletRow {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  
+
   .bullet {
     color: var(--parchment);
     margin-bottom: 5px;
   }
-  
+
   .bulletText {
     color: var(--parchment);
     margin-left: 3%;
@@ -132,14 +129,13 @@
     font-weight: 500;
     width: 60%;
   }
-  
+
   .bulletText:hover {
     cursor: pointer;
     color: var(--parchment);
   }
 
   .active {
-    color: var(--parchment)
+    color: var(--parchment);
   }
-
 }

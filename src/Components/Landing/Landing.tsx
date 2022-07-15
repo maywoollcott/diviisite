@@ -8,8 +8,7 @@ const Landing = () => {
       <img src={`./sitecard.png`} className='cardPic'></img>
       <div className='textContainer'>
         <p className='header'>divii</p>
-        <p className='subHeader'>a tarot card app built for mobile</p>
-        <p className='launch'>LAUNCHING JULY 2022</p>
+        <p className='subHeader'>launching July 2022</p>
       </div>
     </div>
   );

@@ -53,18 +53,17 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .logoImg {
     width: 18%;
     margin-bottom: 30px;
   }
-  
+
   .cardPic {
-   height: 60%;
+    height: 60%;
     border-radius: 2%;
-    margin-top: 60px;
   }
-  
+
   .header {
     color: var(--parchment);
     font-size: 40px;
@@ -73,22 +72,22 @@
     margin-bottom: 5px;
     margin-top: 30px;
   }
-  
+
   .subHeader {
     color: var(--parchment);
     font-size: 18px;
     font-family: 'made-dillan';
     margin: 0;
-    width: 70%;
+    width: 100%;
     text-align: center;
   }
-  
+
   .launch {
     color: var(--parchment);
     font-weight: 500;
     margin-top: 30px;
   }
-  
+
   .textContainer {
     display: flex;
     flex-direction: column;
