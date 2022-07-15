@@ -136,6 +136,6 @@
   }
 
   .active {
-    color: var(--parchment);
+    color: rgb(53, 69, 78);
   }
 }
