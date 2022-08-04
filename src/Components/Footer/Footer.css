@@ -50,10 +50,8 @@
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    position: absolute;
     height: 6rem;
     align-items: center;
-    bottom: 0;
     background-color: transparent;
   }
 
