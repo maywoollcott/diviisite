@@ -52,6 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    height: fit-content;
   }
 
   .logoImg {
@@ -60,7 +61,7 @@
   }
 
   .cardPic {
-    height: 60%;
+    height: 250px;
     border-radius: 2%;
     margin-top: 3rem;
   }

@@ -58,13 +58,11 @@
     flex-direction: row;
     width: 100%;
     justify-content: flex-end;
-    position: absolute;
     height: 6rem;
     align-items: center;
-    top: 0;
     background-color: transparent;
   }
-  
+
   .navBar ul {
     display: flex;
     list-style: none;
@@ -73,7 +71,7 @@
     width: 100%;
     justify-content: flex-end;
   }
-  
+
   .navBar li {
     text-decoration: none;
     margin-right: 5%;
@@ -81,7 +79,7 @@
     font-weight: 500;
     color: var(--parchment);
   }
-  
+
   .navBar li a {
     text-decoration: none;
     margin-right: 5%;
@@ -89,7 +87,7 @@
     font-weight: 500;
     color: var(--parchment);
   }
-  
+
   .logo {
     font-family: 'made-dillan';
     color: var(--white);
@@ -101,7 +99,7 @@
     color: var(--parchment);
     cursor: pointer;
   }
-  
+
   .navBar li a:hover {
     color: var(--parchment);
     cursor: pointer;

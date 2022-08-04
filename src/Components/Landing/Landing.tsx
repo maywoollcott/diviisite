@@ -11,9 +11,9 @@ const Landing = () => {
         <div className='textContainer'>
           <p className='header'>divii</p>
           <p className='subHeader'>launching August 2022</p>
+          <Footer />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
