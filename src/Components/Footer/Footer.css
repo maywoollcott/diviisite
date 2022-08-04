@@ -1,0 +1,102 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  height: 6rem;
+  align-items: center;
+  bottom: 0;
+  background-color: transparent;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  font-weight: 300;
+  color: var(--parchment);
+  width: 100%;
+  justify-content: center;
+}
+
+.footer li {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--parchment);
+  padding: 1%;
+}
+
+.footer li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--parchment);
+}
+
+.footer li:hover {
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+.footer li a:hover {
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    height: 6rem;
+    align-items: center;
+    bottom: 0;
+    background-color: transparent;
+  }
+
+  .footer ul {
+    display: flex;
+    list-style: none;
+    font-weight: 300;
+    color: var(--parchment);
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer li {
+    text-decoration: none;
+    padding: 1%;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--parchment);
+  }
+
+  .footer li a {
+    text-decoration: none;
+    padding: 1%;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--parchment);
+  }
+
+  .logo {
+    font-family: 'made-dillan';
+    color: var(--white);
+    font-size: 36px;
+    margin-left: 3%;
+  }
+
+  .footer li:hover {
+    color: var(--parchment);
+    cursor: pointer;
+  }
+
+  .footer li a:hover {
+    color: var(--parchment);
+    cursor: pointer;
+  }
+}

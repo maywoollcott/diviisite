@@ -5,16 +5,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Landing from './Components/Landing/Landing';
-import Features from './Components/Features/Features'
-import Demo from './Components/Demo/Demo'
-
+import Features from './Components/Features/Features';
+import Demo from './Components/Demo/Demo';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Landing />}/>
-        <Route path='/features' element={<Features />}/>
-        <Route path='/demo' element={<Demo />}/>
+        <Route path='/' element={<Landing />} />
+        <Route path='/features' element={<Features />} />
+        <Route path='/demo' element={<Demo />} />
       </Routes>
       <App />
     </BrowserRouter>
