@@ -10,7 +10,7 @@ const Landing = () => {
         <img src={`./sitecard.png`} className='cardPic'></img>
         <div className='textContainer'>
           <p className='header'>divii</p>
-          <p className='subHeader'>launching August 2022</p>
+          <p className='subHeader'>launching spring of 2023</p>
           <Footer />
         </div>
       </div>
