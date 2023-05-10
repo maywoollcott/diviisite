@@ -9,20 +9,11 @@ export const Footer = () => {
       <ul className=''>
         <li>
           <a
-            href='https://app.termly.io/document/privacy-policy/812be366-6bee-4d71-add5-7cee1f910afc'
+            href='https://diviiprivacypolicy.tiiny.site/'
             target='_blank'
             rel='noreferrer'
           >
             Privacy Policy
-          </a>
-        </li>
-        <li>
-          <a
-            href='https://app.termly.io/document/terms-of-use-for-website/2bbc99b5-c3bc-4cab-919c-17bc14675c22'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Terms and Conditions
           </a>
         </li>
         <li

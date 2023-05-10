@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Landing from './Components/Landing/Landing';
 import Features from './Components/Features/Features';
 import Demo from './Components/Demo/Demo';
+import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path='/' element={<Landing />} />
         <Route path='/features' element={<Features />} />
         <Route path='/demo' element={<Demo />} />
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
       </Routes>
       <App />
     </BrowserRouter>
